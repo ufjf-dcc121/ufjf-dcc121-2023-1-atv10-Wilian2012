@@ -39,7 +39,7 @@
         form.addEventListener('submit',envia);
 
         function envia(evento){
-            evento.prevenDeafult();
+            evento.preventDefault();
             console.log('Formulário enviado!');
         }
     </script>
