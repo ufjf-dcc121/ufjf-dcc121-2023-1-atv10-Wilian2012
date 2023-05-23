@@ -1,5 +1,5 @@
 html{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
     display: flex;
@@ -10,6 +10,7 @@ header h1{
 header h2{
     margin-bottom: 0.2rem;
     opacity: 0.6;
+    color: white;
 }
 #formulario, #items {
     width: 200px;
