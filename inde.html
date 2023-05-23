@@ -34,5 +34,14 @@
     <footer>
         <p>&copy; wilian santos</p>
     </footer>
+    <script>
+        const form=document.forms.entrada;
+        form.addEventListener('submit',envia);
+
+        function envia(evento){
+            evento.prevenDeafult();
+            console.log('Formulário enviado!');
+        }
+    </script>
 </body>
 </html>
